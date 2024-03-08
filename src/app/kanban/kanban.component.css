@@ -1,0 +1,7 @@
+@import "../../../node_modules/@dhx/trial-kanban/dist/kanban.css";
+
+.widget {
+  position: relative;
+  width: 100%;
+  height: 100%;
+}
