@@ -2,12 +2,16 @@
 
 [![dhtmlx.com](https://img.shields.io/badge/made%20by-DHTMLX-blue)](https://dhtmlx.com/)
 
+![DHTMLX Kanban with Angular Demo](https://raw.githubusercontent.com/DHTMLX/angular-kanban-demo/master/kanban.png)
+
 ## How to start
 
 ```
 yarn 
 yarn start
 ```
+
+You can also use [GitHub Codespaces](https://docs.github.com/en/codespaces/developing-in-a-codespace/creating-a-codespace-for-a-repository) to run online.
 
 ## Useful links
 
