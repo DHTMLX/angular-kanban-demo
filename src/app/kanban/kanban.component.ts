@@ -1,4 +1,4 @@
-import { Kanban } from "@dhx/trial-kanban";
+import { Kanban, Toolbar } from "@dhx/trial-kanban";
 import { getData } from "./data";
 
 import {
@@ -14,24 +14,36 @@ import {
   encapsulation: ViewEncapsulation.None,
   selector: "kanban",
   styleUrls: ["./kanban.component.css"],
-  template: `<div #here class="widget"></div>`,
+  template: `
+    <div>
+      <div #toolbar_container></div>
+      <div #kanban_container class="widget"></div>
+    </div>`
 })
 export class KanbanComponent implements OnInit, OnDestroy {
-  @ViewChild("here", { static: true }) container!: ElementRef;
+  @ViewChild("toolbar_container", { static: true }) toolbar_container!: ElementRef;
+  @ViewChild("kanban_container", { static: true }) kanban_container!: ElementRef;
 
-  private _kanban!: Kanban;
+  private _kanban!: any;
+  private _toolbar!: any;
 
   ngOnInit() {
     const { cards, columns } = getData();
-    const kanban = new Kanban(this.container.nativeElement, {
+    this._kanban = new Kanban(this.kanban_container.nativeElement, {
       columns,
       cards,
+      // other configuration properties
     });
 
-    this._kanban = kanban;
+    this._toolbar = new Toolbar(this.toolbar_container.nativeElement, {
+      api: this._kanban.api,
+      // other configuration properties 
+    });
+
   }
 
   ngOnDestroy(): void {
     this._kanban.destructor();
+    this._toolbar.destructor();
   }
 }
