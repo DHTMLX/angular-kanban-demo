@@ -7,25 +7,25 @@ import {
   OnInit,
   OnDestroy,
   ViewChild,
-  ViewEncapsulation,
+  ViewEncapsulation
 } from "@angular/core";
 
 @Component({
   encapsulation: ViewEncapsulation.None,
   selector: "kanban",
   styleUrls: ["./kanban.component.css"],
-  template: `
-    <div>
-      <div #toolbar_container></div>
-      <div #kanban_container class="widget"></div>
-    </div>`
+  template:  `<div class="component_container">
+                <div #toolbar_container></div>
+                <div #kanban_container style="height: calc(100% - 56px);"></div>
+              </div>`
 })
+
 export class KanbanComponent implements OnInit, OnDestroy {
   @ViewChild("toolbar_container", { static: true }) toolbar_container!: ElementRef;
   @ViewChild("kanban_container", { static: true }) kanban_container!: ElementRef;
 
-  private _kanban!: any;
-  private _toolbar!: any;
+  private _kanban!: Kanban;
+  private _toolbar!: Toolbar;
 
   ngOnInit() {
     const { cards, columns } = getData();
@@ -39,7 +39,6 @@ export class KanbanComponent implements OnInit, OnDestroy {
       api: this._kanban.api,
       // other configuration properties 
     });
-
   }
 
   ngOnDestroy(): void {

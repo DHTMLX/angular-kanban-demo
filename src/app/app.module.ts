@@ -7,6 +7,6 @@ import { KanbanComponent } from "./kanban/kanban.component";
 @NgModule({
   declarations: [AppComponent, KanbanComponent],
   imports: [BrowserModule],
-  bootstrap: [AppComponent],
+  bootstrap: [AppComponent]
 })
 export class AppModule {}
