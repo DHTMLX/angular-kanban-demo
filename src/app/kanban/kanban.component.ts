@@ -1,4 +1,4 @@
-import { Kanban, Toolbar } from "@dhx/trial-kanban";
+import { Kanban, Toolbar, defaultEditorShape } from "@dhx/trial-kanban";
 import { getData } from "./data";
 
 import {
@@ -28,10 +28,30 @@ export class KanbanComponent implements OnInit, OnDestroy {
   private _toolbar!: Toolbar;
 
   ngOnInit() {
-    const { cards, columns } = getData();
+    const { cards, columns, rows, cardShape } = getData();
     this._kanban = new Kanban(this.kanban_container.nativeElement, {
       columns,
       cards,
+      rows,
+      rowKey: "type",
+      cardShape,
+      editorShape: [
+        ...defaultEditorShape, // import default config for editorShape
+        {
+          type: "links",
+          key: "links",
+          label: "Links"
+        },
+        {
+          type: "comments",
+          key: "comments",
+          label: "Comments",
+          config: {
+            placement: "editor"
+          }
+        }
+      ],
+      currentUser: 1,
       // other configuration properties
     });
 
