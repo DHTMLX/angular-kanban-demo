@@ -2,7 +2,7 @@
 
 [![dhtmlx.com](https://img.shields.io/badge/made%20by-DHTMLX-blue)](https://dhtmlx.com/)
 
-![DHTMLX Kanban with Angular Demo](https://raw.githubusercontent.com/DHTMLX/angular-kanban-demo/master/kanban.png)
+![DHTMLX Kanban with Angular Demo](kanban.png)
 
 ## How to start
 
