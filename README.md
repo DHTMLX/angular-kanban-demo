@@ -33,13 +33,17 @@ npm run start
 - Intuitive UI with drag-and-drop support
 - Multiple operations with tasks: adding a new task, editing, prioritizing, duplicating, assigning, adding attachments, commenting, voting, etc.
 - Specifying dependencies between tasks using links in the editor
+[![kanban-with-links](https://dhtmlx.com/blog/wp-content/uploads/2024/06/kanban-dependencies.gif)](https://snippet.dhtmlx.com/5hcx01h4?tag=kanban&mode=wide)
 - Undo/redo
 - WIP validation
 - Freezing column headers
 - Customizable appearance via CSS variables
-- Custom context menus for Kanban elements (cards, columns, and rows),
-- Integrating custom sorting options,
-- Adding custom date formats in the editor,
+[![kanban-dark-theme](https://dhtmlx.com/blog/wp-content/uploads/2023/03/bandicam-2023-03-22-14-55-10-089.jpg)](https://snippet.dhtmlx.com/jnw54xif?tag=kanban&mode=wide)
+- Custom context menus for Kanban elements (cards, columns, and rows)
+- Integrating custom sorting options
+- Adding custom date formats in the editor
+[![kanban-custom-date-fomat](https://dhtmlx.com/blog/wp-content/uploads/2023/03/image5.png)](https://snippet.dhtmlx.com/76as63ul?tag=kanban&mode=wide)
+
 - Keyboard navigation
 - Lazy rendering
 - Touch support
