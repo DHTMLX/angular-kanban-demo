@@ -68,5 +68,5 @@ Check out examples of using DHTMLX Kanban with other technologies:
 - Star our GitHub repo :star:
 - Watch our tutorials on [YouTube](https://www.youtube.com/user/dhtmlx/videos) :tv:
 - Read us on [Medium](https://dhtmlx.medium.com) :newspaper:
-- Follow us on [X]((https://x.com/dhtmlx)) :bird:
+- Follow us on [X](https://x.com/dhtmlx) :bird:
 - Check our news and updates on [Facebook](https://www.facebook.com/dhtmlx/) :feet:
