@@ -13,7 +13,9 @@ DHTMLX Kanban is designed to manage visual workflow and efficiently collaborate 
 
 ### Online
 
-[![Open in GitHub Codespaces](https://github.com/codespaces/badge.svg)](https://codespaces.new/DHTMLX/angular-kanban-demo/) 
+[![Open in GitHub Codespaces](https://github.com/codespaces/badge.svg)](https://codespaces.new/DHTMLX/angular-kanban-demo/)
+
+**Please note**, having clicked on this button, you open the **online demo. Don't worry about paying extra!** With GitHub's free plan, [you get 15 GB of storage and 120 hours of Codespaces use each month](https://docs.github.com/ru/billing/managing-billing-for-github-codespaces/about-billing-for-github-codespaces#monthly-included-storage-and-core-hours-for-personal-accounts). This is more than enough to run our demo without any extra costs.
 
 ### On the local host 
 
@@ -64,7 +66,6 @@ This demo is available under the Evaluation license. To use it in your projects,
 <a name="links"></a>
 ## Useful links
 
-- [Online demo](https://replit.com/@dhtmlx/dhtmlx-kanban-with-angular)
 - [More demos about the DHTMLX Kanban functionality](https://snippet.dhtmlx.com/807qbp9v?tag=kanban&mode=wide)
 - [Technical support ](https://forum.dhtmlx.com/c/kanban)
 - [Online  documentation](https://docs.dhtmlx.com/kanban/)
@@ -76,7 +77,7 @@ Check out examples of using DHTMLX Kanban with other technologies:
 
 | JavaScript | React | Svelte | Vue | TypeScript |
 | ----- | ----- | ----- | ----- | ----- | 
-| [![javascript](https://dhtmlx.com/images/common/technologies/js.svg)](https://github.com/DHTMLX/docs-kanban) | [![react](https://dhtmlx.com/images/common/technologies/react.svg)](https://github.com/DHTMLX/react-kanban-demo) | [![svelte](https://dhtmlx.com/images/common/technologies/svelte.svg)](https://github.com/DHTMLX/svelte-kanban-demo) | [![vue](https://dhtmlx.com/images/common/technologies/vue.svg)](https://github.com/DHTMLX/vue-kanban-demo) | [![typescript](https://dhtmlx.com/images/common/technologies/typescript.svg)](https://docs.dhtmlx.com/kanban/guides/typescript_support/)
+| [![javascript](https://dhtmlx.com/images/common/technologies/js.svg)](https://dhtmlx.com/docs/products/dhtmlxKanban/) | [![react](https://dhtmlx.com/images/common/technologies/react.svg)](https://github.com/DHTMLX/react-kanban-demo) | [![svelte](https://dhtmlx.com/images/common/technologies/svelte.svg)](https://github.com/DHTMLX/svelte-kanban-demo) | [![vue](https://dhtmlx.com/images/common/technologies/vue.svg)](https://github.com/DHTMLX/vue-kanban-demo) | [![typescript](https://dhtmlx.com/images/common/technologies/typescript.svg)](https://docs.dhtmlx.com/kanban/guides/typescript_support/)
 
 <a name="join"></a>
 ## Join our online community
