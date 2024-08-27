@@ -16,7 +16,7 @@ import {
   styleUrls: ["./kanban.component.css"],
   template:  `<div class="component_container">
                 <div #toolbar_container></div>
-                <div #kanban_container style="height: calc(100% - 56px);"></div>
+                <div #kanban_container class = "widget"></div>
               </div>`
 })
 
