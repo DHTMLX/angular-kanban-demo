@@ -4,7 +4,7 @@
 
 [How to start](#how-to-start) | [Key features](#key-features) | [License](#license) | [Useful links](#links) | [Other examples](#examples) | [Join our online community](#join)
 
-![DHTMLX Kanban with Angular Demo](https://raw.githubusercontent.com/DHTMLX/angular-kanban-demo/master/kanban.png)
+![DHTMLX Kanban with Angular Demo](kanban.png)
 
 DHTMLX Kanban is designed to manage visual workflow and efficiently collaborate with teams. The widget features an intuitive user interface and feature-rich JavaScript API to control each Kanban look and feel aspect. It's a pure [JavaScript kanban board](https://dhtmlx.com/docs/products/dhtmlxKanban/) you can download and use other frameworks, including Angular, React, Vue, etc.
 
@@ -15,7 +15,7 @@ DHTMLX Kanban is designed to manage visual workflow and efficiently collaborate 
 
 [![Open in GitHub Codespaces](https://github.com/codespaces/badge.svg)](https://codespaces.new/DHTMLX/angular-kanban-demo/)
 
-**Please note**, having clicked on this button, you open the **online demo. Don't worry about paying extra!** With GitHub's free plan, [you get 15 GB of storage and 120 hours of Codespaces use each month](https://docs.github.com/ru/billing/managing-billing-for-github-codespaces/about-billing-for-github-codespaces#monthly-included-storage-and-core-hours-for-personal-accounts). This is more than enough to run our demo without any extra costs.
+**Please note**, having clicked on this button, you open the **online demo. Don't worry about paying extra!** With GitHub's free plan, [you get 15 GB of storage and 120 hours of Codespaces use each month](https://docs.github.com/en/billing/managing-billing-for-github-codespaces/about-billing-for-github-codespaces#monthly-included-storage-and-core-hours-for-personal-accounts). This is more than enough to run our demo without any extra costs.
 
 ### On the local host 
 
