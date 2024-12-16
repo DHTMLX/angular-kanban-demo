@@ -1,7 +1,21 @@
-@import "../../../node_modules/@dhx/trial-kanban/dist/kanban.css";
+/* import Kanban styles */
+@import "@dhx/trial-kanban/dist/kanban.css";
 
+/* specify styles for initial page */
+html,
+body{
+  height: 100%;
+  padding: 0;
+  margin: 0;
+}
+
+/* specify styles for Kanban and Toolbar container*/
 .component_container {
   height: 100%; 
-  width: 100%; 
   margin: 0 auto;
+}
+
+/* specify styles for Kanban container */
+.widget {
+  height: calc(100% - 56px);
 }
